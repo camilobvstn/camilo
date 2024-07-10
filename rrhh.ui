@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>900</width>
+     <height>800</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>800</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>900</width>
+        <height>800</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>900</width>
+        <height>800</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#frame{
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(46, 0, 255, 69), stop:0.25 rgba(90, 0, 255, 69), stop:0.375 rgba(144, 0, 255, 208), stop:0.4375 rgba(114, 0, 218, 130), stop:0.528409 rgba(144, 71, 255, 130), stop:0.573864 rgba(155, 0, 255, 145), stop:0.630682 rgba(144, 0, 255, 255), stop:0.636364 rgba(209, 0, 255, 69), stop:0.738636 rgba(187, 0, 255, 130), stop:0.903409 rgba(252, 0, 255, 69));
+ }</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>2</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>400</width>
+           <height>800</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(46, 0, 255, 69), stop:0.25 rgba(90, 0, 255, 69), stop:0.375 rgba(144, 0, 255, 208), stop:0.4375 rgba(114, 0, 218, 130), stop:0.528409 rgba(144, 71, 255, 130), stop:0.573864 rgba(155, 0, 255, 145), stop:0.630682 rgba(144, 0, 255, 255), stop:0.636364 rgba(209, 0, 255, 69), stop:0.738636 rgba(187, 0, 255, 130), stop:0.903409 rgba(252, 0, 255, 69));}
+
+ QPushButton{
+font: 87 14pt &quot;Nexa Heavy&quot;;
+background-color:none;
+color:white;
+border-radius:10px;
+}
+
+QPushButton:hover{
+font: 87 14pt &quot;Nexa Heavy&quot;;
+color: rgb(85, 0, 127);
+background-color: rgb(255, 255, 255);
+border-radius:10px;
+padding:2px;
+}
+
+QLabel{
+background-color:none;
+font: 87 40pt &quot;Nexa Heavy&quot;;
+color:white;}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <widget class="QPushButton" name="btn_principal">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>270</y>
+            <width>181</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20 pt&quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>PAGINA PRINCIPAL</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="btn_lista">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>380</y>
+            <width>211</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>245</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20 pt&quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>LISTA TRABAJADORES</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="bt_registrartrabajador">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>480</y>
+            <width>240</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>240</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20 pt&quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>REGISTRAR TRABAJADOR</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="btn_salir">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>690</y>
+            <width>80</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>80</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="text">
+           <string>SALIR</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>100</y>
+            <width>200</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Nexa Heavy'; font-size:40pt; font-weight:80; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;CORREOS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>129</y>
+            <width>140</width>
+            <height>65</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>140</width>
+            <height>65</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Nexa Heavy'; font-size:40pt; font-weight:80; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;YURI&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>700</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>1</number>
+          </property>
+          <property name="topMargin">
+           <number>1</number>
+          </property>
+          <property name="rightMargin">
+           <number>1</number>
+          </property>
+          <property name="bottomMargin">
+           <number>1</number>
+          </property>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{font: 87 15pt &quot;Nexa Heavy&quot;;
+color:rgb(255, 255, 255);
+border-radius:10px;
+background-color:rgb(145, 67, 255);
+}
+QPushButton:hover{
+background-color: rgb(182, 0, 254);
+}
+
+QLabel{
+background-color:none;
+font: 87 22pt &quot;Nexa Heavy&quot;;
+color:rgb(145, 67, 255);}
+
+QLineEdit{
+background-color:rgb(248, 248, 248);
+border-radius:5px;
+font: 87 12pt &quot;Nexa Heavy&quot;;
+border:2px solid rgb(145, 67, 255);}
+
+QLineEdit:focus {
+border: 0px solid white;
+ background-color: rgb(255, 255, 255);
+ border-bottom: 2px solid rgb(145, 67, 255);
+}
+
+QComboBox{background-color:rgb(248, 248, 248);
+border-radius:5px;
+font: 87 12pt &quot;Nexa Heavy&quot;;
+border:2px solid rgb(145, 67, 255);}
+
+QDateEdit{background-color:rgb(248, 248, 248);
+border-radius:5px;
+font: 87 12pt &quot;Nexa Heavy&quot;;
+border:2px solid rgb(145, 67, 255);}</string>
+            </property>
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
+            <widget class="QWidget" name="main"/>
+            <widget class="QWidget" name="lista">
+             <widget class="QTableWidget" name="lista_trabajadores">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>210</y>
+                <width>581</width>
+                <height>381</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;</string>
+              </property>
+              <column>
+               <property name="text">
+                <string>RUT</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>NOMBRE</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>SEXO</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>CARGO</string>
+               </property>
+              </column>
+             </widget>
+             <widget class="QLabel" name="label_3">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>130</y>
+                <width>401</width>
+                <height>61</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>LISTA DE TRABAJADORES</string>
+              </property>
+              <property name="textFormat">
+               <enum>Qt::PlainText</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="btn_actualizar_3">
+              <property name="geometry">
+               <rect>
+                <x>460</x>
+                <y>620</y>
+                <width>131</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:15px;</string>
+              </property>
+              <property name="text">
+               <string>ACTUALIZAR</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="buscar">
+             <widget class="QTableWidget" name="lista_trabajadores_2">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>290</y>
+                <width>550</width>
+                <height>441</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>550</width>
+                <height>500</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;</string>
+              </property>
+              <column>
+               <property name="text">
+                <string>RUT</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>NOMBRE</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>SEXO</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>CARGO</string>
+               </property>
+              </column>
+             </widget>
+             <widget class="QLabel" name="label_29">
+              <property name="geometry">
+               <rect>
+                <x>110</x>
+                <y>110</y>
+                <width>390</width>
+                <height>35</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>390</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>BUSCAR TRABAJADORES</string>
+              </property>
+              <property name="textFormat">
+               <enum>Qt::PlainText</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_buscar_2">
+              <property name="geometry">
+               <rect>
+                <x>100</x>
+                <y>240</y>
+                <width>240</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>240</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="btn_actualizar_2">
+              <property name="geometry">
+               <rect>
+                <x>480</x>
+                <y>240</y>
+                <width>100</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:15px;</string>
+              </property>
+              <property name="text">
+               <string>BUSCAR</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_31">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>240</y>
+                <width>55</width>
+                <height>40</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>55</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:24px;</string>
+              </property>
+              <property name="text">
+               <string>RUT:</string>
+              </property>
+              <property name="textFormat">
+               <enum>Qt::PlainText</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_30">
+              <property name="geometry">
+               <rect>
+                <x>140</x>
+                <y>150</y>
+                <width>340</width>
+                <height>50</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>340</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:14px;
+font: 75 15pt &quot;Microsoft YaHei UI&quot;;
+color:black;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;BUSCA TRABAJADORES EN LA LISTA &lt;br/&gt;FILTRANDO POR RUT.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="registrar">
+             <widget class="QPushButton" name="btn_continuar">
+              <property name="geometry">
+               <rect>
+                <x>230</x>
+                <y>400</y>
+                <width>140</width>
+                <height>40</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>140</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="text">
+               <string>CONTINUAR</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_4">
+              <property name="geometry">
+               <rect>
+                <x>30</x>
+                <y>300</y>
+                <width>550</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>550</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">size-font:9x;</string>
+              </property>
+              <property name="text">
+               <string>VAS A REGISTRAR UN TRABAJADOR</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_5">
+              <property name="geometry">
+               <rect>
+                <x>150</x>
+                <y>330</y>
+                <width>340</width>
+                <height>40</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>340</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">size-font:9x;</string>
+              </property>
+              <property name="text">
+               <string>EN LA BASE DE DATOS</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="form_personal">
+             <widget class="QLabel" name="label_6">
+              <property name="geometry">
+               <rect>
+                <x>70</x>
+                <y>80</y>
+                <width>470</width>
+                <height>40</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>470</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:35px;</string>
+              </property>
+              <property name="text">
+               <string>FORMULARIO PERSONAL</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_7">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>200</y>
+                <width>99</width>
+                <height>25</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>99</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>NOMBRE:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_8">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>290</y>
+                <width>50</width>
+                <height>25</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>RUT:</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_9">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>390</y>
+                <width>60</width>
+                <height>25</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>60</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>SEXO:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_10">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>500</y>
+                <width>121</width>
+                <height>25</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>130</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>DIRECCION:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_11">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>600</y>
+                <width>120</width>
+                <height>25</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>120</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>TELEFONO:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_nombre">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>230</y>
+                <width>300</width>
+                <height>35</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="placeholderText">
+               <string>Ingrese un nombre.</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_rut">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>320</y>
+                <width>300</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="placeholderText">
+               <string>Ingrese un RUT.</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_dire">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>530</y>
+                <width>300</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="placeholderText">
+               <string>Ingrese una direccion.</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_tel">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>630</y>
+                <width>300</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="placeholderText">
+               <string>Ingrese un telefono.</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="btn_personal">
+              <property name="geometry">
+               <rect>
+                <x>450</x>
+                <y>720</y>
+                <width>150</width>
+                <height>40</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>SIGUIENTE</string>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="input_sexo">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>420</y>
+                <width>150</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
+                <height>35</height>
+               </size>
+              </property>
+              <item>
+               <property name="text">
+                <string>-</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Hombre</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Mujer</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>X</string>
+               </property>
+              </item>
+             </widget>
+             <widget class="QLabel" name="label_12">
+              <property name="geometry">
+               <rect>
+                <x>490</x>
+                <y>690</y>
+                <width>60</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>60</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>1 DE 3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_13">
+              <property name="geometry">
+               <rect>
+                <x>130</x>
+                <y>130</y>
+                <width>350</width>
+                <height>40</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>350</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 20 pt&quot;MS Shell Dlg 2&quot;;
+color:black;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;RELLENE EL SIGUIGUIENTE CON LA&lt;br/&gt;INFORMACION PERSONAL DEL TRABAJADOR&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_nombre">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>260</y>
+                <width>281</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_rut">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>350</y>
+                <width>311</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_dire">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>560</y>
+                <width>301</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+text-align:left;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_telefono">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>660</y>
+                <width>311</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_sexo">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>460</y>
+                <width>191</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="form_laboral">
+             <widget class="QLineEdit" name="input_cargo">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>230</y>
+                <width>300</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="placeholderText">
+               <string>Ingrese el cargo.</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_departamento">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>330</y>
+                <width>300</width>
+                <height>35</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="placeholderText">
+               <string>Ingrese el departamento.</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_14">
+              <property name="geometry">
+               <rect>
+                <x>100</x>
+                <y>80</y>
+                <width>440</width>
+                <height>35</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>440</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:35px;</string>
+              </property>
+              <property name="text">
+               <string>FORMULARIO LABORAL</string>
+              </property>
+             </widget>
+             <widget class="QDateEdit" name="input_fecha">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>430</y>
+                <width>200</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>200</width>
+                <height>35</height>
+               </size>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="input_laboral">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>530</y>
+                <width>200</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>200</width>
+                <height>35</height>
+               </size>
+              </property>
+              <item>
+               <property name="text">
+                <string>-</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Administracion</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Finanzas</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Informatica</string>
+               </property>
+              </item>
+             </widget>
+             <widget class="QLabel" name="label_15">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>500</y>
+                <width>165</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>165</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>AREA LABORAL:</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_16">
+              <property name="geometry">
+               <rect>
+                <x>140</x>
+                <y>130</y>
+                <width>340</width>
+                <height>45</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>340</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 20 pt&quot;MS Shell Dlg 2&quot;;
+color:black;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;RELLENE EL SIGUIGUIENTE CON LA&lt;br/&gt;INFORMACION LABORAL DEL TRABAJADOR&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_17">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>200</y>
+                <width>80</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>CARGO:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_18">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>400</y>
+                <width>200</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>200</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>FECHA DE INGRESO:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_19">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>300</y>
+                <width>175</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>175</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>DEPARTAMENTO:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="btn_laboral">
+              <property name="geometry">
+               <rect>
+                <x>450</x>
+                <y>720</y>
+                <width>150</width>
+                <height>40</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="text">
+               <string>SIGUIENTE</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_20">
+              <property name="geometry">
+               <rect>
+                <x>490</x>
+                <y>690</y>
+                <width>60</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>60</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>2 DE 3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="btnAtras1">
+              <property name="geometry">
+               <rect>
+                <x>360</x>
+                <y>730</y>
+                <width>71</width>
+                <height>23</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 87 15pt &quot;Nexa Heavy&quot;;
+color:grey;
+border-radius:10px;
+background-color: white;</string>
+              </property>
+              <property name="text">
+               <string>Atras</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_cargo">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>270</y>
+                <width>281</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_departamento">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>370</y>
+                <width>281</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_fecha">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>470</y>
+                <width>281</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_laboral">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>570</y>
+                <width>281</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="page_2"/>
+            <widget class="QWidget" name="form_emergencia">
+             <widget class="QLabel" name="label_21">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>70</y>
+                <width>501</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:35px;</string>
+              </property>
+              <property name="text">
+               <string>FORMULARIO EMERGENCIAS</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_22">
+              <property name="geometry">
+               <rect>
+                <x>60</x>
+                <y>120</y>
+                <width>501</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 20 pt&quot;MS Shell Dlg 2&quot;;
+color:black;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;RELLENE EL SIGUIGUIENTE CON LA&lt;br/&gt;INFORMACION EN CASO DE EMRGENCIA DEL TRABAJADOR&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_telefonoemergencia">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>230</y>
+                <width>301</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="placeholderText">
+               <string>Ingrese un telefono.</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_23">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>200</y>
+                <width>261</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>TELEFONO EMERGENCIA:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_nombreemergencia">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>330</y>
+                <width>301</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="placeholderText">
+               <string>Ingrese nombre del contacto.</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_24">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>300</y>
+                <width>211</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>NOMBRE CONTACTO:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="btn_emergencia">
+              <property name="geometry">
+               <rect>
+                <x>450</x>
+                <y>720</y>
+                <width>151</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="text">
+               <string>SIGUIENTE</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_25">
+              <property name="geometry">
+               <rect>
+                <x>490</x>
+                <y>690</y>
+                <width>61</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>3 DE 3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="btnAtras1_2">
+              <property name="geometry">
+               <rect>
+                <x>360</x>
+                <y>730</y>
+                <width>71</width>
+                <height>23</height>
+               </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>80</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 87 15pt &quot;Nexa Heavy&quot;;
+color:grey;
+border-radius:10px;
+background-color: white;</string>
+              </property>
+              <property name="text">
+               <string>Atras</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="input_parentesco">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>440</y>
+                <width>301</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="placeholderText">
+               <string>ingrese el parentesco.</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_26">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>410</y>
+                <width>151</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:19px;</string>
+              </property>
+              <property name="text">
+               <string>PARENTESCO:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_telefonoemergencia">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>270</y>
+                <width>281</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_nombrecontacto">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>360</y>
+                <width>281</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="error_parentesco">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>480</y>
+                <width>281</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 75 11pt &quot;Microsoft YaHei UI&quot;;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="form_completo">
+             <widget class="QLabel" name="label_27">
+              <property name="geometry">
+               <rect>
+                <x>50</x>
+                <y>220</y>
+                <width>481</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:35px;
+font: 25 pt&quot;MS Shell Dlg 2&quot;;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt;&quot;&gt;SE HA REGISTRADO EL&lt;br/&gt;USUARIO CON EXITO.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="label_28">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>350</y>
+                <width>511</width>
+                <height>61</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size:20px;
+font: 20 pt&quot;MS Shell Dlg 2&quot;;
+color:black;</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;EL USUARIO SE REGISTRO CON EXITO EN LA BASE DE DATOS&lt;br/&gt;VERIFICA LA TABLA PARA COMPROBAR&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButton_6">
+              <property name="geometry">
+               <rect>
+                <x>210</x>
+                <y>440</y>
+                <width>161</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="text">
+               <string>VOLVER</string>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

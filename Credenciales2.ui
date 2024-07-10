@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget{}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">QWidget#frame{
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(46, 0, 255, 69), stop:0.25 rgba(90, 0, 255, 69), stop:0.375 rgba(144, 0, 255, 208), stop:0.4375 rgba(114, 0, 218, 130), stop:0.528409 rgba(144, 71, 255, 130), stop:0.573864 rgba(155, 0, 255, 145), stop:0.630682 rgba(144, 0, 255, 255), stop:0.636364 rgba(209, 0, 255, 69), stop:0.738636 rgba(187, 0, 255, 130), stop:0.903409 rgba(252, 0, 255, 69));
+ }</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>10</y>
+         <width>421</width>
+         <height>781</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#widget{
+background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>90</y>
+          <width>280</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>280</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+background-color:none;
+font: 87 35pt &quot;Nexa Heavy&quot;;
+color:rgb(145, 67, 255);}</string>
+        </property>
+        <property name="text">
+         <string>Bienvenido!</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>140</y>
+          <width>220</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>220</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 12pt &quot;Nexa Heavy&quot;;
+color: grey;</string>
+        </property>
+        <property name="text">
+         <string>Ingresa con tus credenciales</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="InputEmail">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>300</y>
+          <width>320</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>320</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    font: 87 12pt &quot;Nexa Heavy&quot;;
+    border: 2px solid rgb(85, 0, 127);
+}
+
+QLineEdit:focus {
+    border: 0px solid white;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(145, 67, 255);
+}
+QLineEdit{
+background-color:rgb(248, 248, 248);
+border-radius:5px;
+font: 87 12pt &quot;Nexa Heavy&quot;;
+border:2px solid rgb(145, 67, 255);}
+
+QLineEdit:focus {
+border: 0px solid white;
+ background-color: rgb(255, 255, 255);
+ border-bottom: 2px solid rgb(145, 67, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string notr="true">Ingrese su RUT</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="InputConstra">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>420</y>
+          <width>320</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>320</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+	background-color: rgb(243, 243, 243);
+	border-radius:5px;
+	font: 87 12pt &quot;Nexa Heavy&quot;;
+	border:2px solid rgb(85, 0, 127);
+}
+
+QLineEdit:focus{
+	
+	border: 0px solid white;
+	
+	background-color: rgb(255, 255, 255);
+	border-bottom:2px solid rgb(145, 67, 255);
+}
+
+QLineEdit{
+background-color:rgb(248, 248, 248);
+border-radius:5px;
+font: 87 12pt &quot;Nexa Heavy&quot;;
+border:2px solid rgb(145, 67, 255);}
+
+QLineEdit:focus {
+border: 0px solid white;
+ background-color: rgb(255, 255, 255);
+ border-bottom: 2px solid rgb(145, 67, 255);
+}</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+        <property name="placeholderText">
+         <string>Ingrese su contrasena</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>260</y>
+          <width>45</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>45</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+background-color:none;
+font: 87 14pt &quot;Nexa Heavy&quot;;
+color:rgb(145, 67, 255);}</string>
+        </property>
+        <property name="text">
+         <string>RUT:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>380</y>
+          <width>130</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>130</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+background-color:none;
+font: 87 14pt &quot;Nexa Heavy&quot;;
+color:rgb(145, 67, 255);}</string>
+        </property>
+        <property name="text">
+         <string>Constrasena:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnIngresar">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>570</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{font: 87 15pt &quot;Nexa Heavy&quot;;
+color:rgb(255, 255, 255);
+border-radius:10px;
+background-color:rgb(145, 67, 255);
+}
+QPushButton:hover{
+background-color: rgb(182, 0, 254);
+}</string>
+        </property>
+        <property name="text">
+         <string>Ingresar</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ErrorEmail">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>340</y>
+          <width>300</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 12pt &quot;Nexa Heavy&quot;;
+color: red;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ErrorConstra">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>460</y>
+          <width>300</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 12pt &quot;Nexa Heavy&quot;;
+color: red;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnRegistrar">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>630</y>
+          <width>150</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{font: 87 15pt &quot;Nexa Heavy&quot;;
+color: rgb(180, 180, 180);
+background-color: white;
+border-radius:1px
+}
+QPushButton:hover{
+	border-bottom:2px solid black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Registrarse</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
